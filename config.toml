@@ -1,0 +1,4 @@
+languageCode = "en-us"
+title = "Ruben Ernst"
+baseURL = "http://example.org/"
+theme = "blank"

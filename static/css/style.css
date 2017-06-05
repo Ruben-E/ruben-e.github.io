@@ -1,0 +1,119 @@
+body {
+    color: #2A3A3F;
+    font-size: 18px;
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+.fullscreen {
+    height: 100vh;
+    position: relative;
+    width: 100%;
+    min-height: 400px;
+    background-color: #2A3A3F;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-image: url(../images/intro-background.jpg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.grey-background {
+    background: #EEE;
+}
+
+.intro {
+    color: #FFF;
+    text-align: center;
+}
+
+.intro .social-media {
+    margin-top: 5rem;
+}
+
+.info-section {
+    padding: 5rem 0;
+}
+
+.info-section .info-section-header {
+    margin-bottom: 3rem;
+}
+
+
+.skills-table p {
+    margin: 0;
+}
+
+.skills-table .row {
+    border-bottom: 1px solid #DDD;
+    padding-top: 1.2rem;
+    padding-bottom: 1.2rem;
+}
+
+.skills-table .row .category {
+    text-align: right;
+}
+
+.skills-table .row .category-skills {
+    text-align: left;
+}
+
+.experience {
+    
+}
+
+.experience-table {
+    margin-bottom: 5rem;
+}
+
+.experience-table .row > div {
+    padding: 1rem 3rem;
+    border-right: 1px solid #EEE;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.experience-table .row > div:last-child {
+    border-right: none;
+}
+
+.contact {
+    background: #F7B733;
+}
+
+footer {
+    background: #F7B733;
+    padding: 1rem;
+    font-size: 14px;
+}
+
+/* Cursor */
+
+.typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
