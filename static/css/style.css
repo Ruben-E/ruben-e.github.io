@@ -14,11 +14,14 @@ h1, h2, h3, h4, h5, h6 {
     position: relative;
     width: 100%;
     min-height: 400px;
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.6), 
+        rgba(0, 0, 0, 0.6)
+      ), url(../images/intro-background.jpg);
     background-color: #2A3A3F;
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
-    background-image: url(../images/intro-background.jpg);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -29,12 +32,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .intro {
-    color: #FFF;
+    color: #DDD;
     text-align: center;
-}
-
-.intro .social-media {
-    margin-top: 5rem;
 }
 
 .info-section {
@@ -44,7 +43,6 @@ h1, h2, h3, h4, h5, h6 {
 .info-section .info-section-header {
     margin-bottom: 3rem;
 }
-
 
 .skills-table p {
     margin: 0;
@@ -92,6 +90,25 @@ footer {
     background: #F7B733;
     padding: 1rem;
     font-size: 14px;
+}
+
+.about-me .me {
+    border-radius: 3px;
+    padding: 3px;
+    border: 1px solid #DDD;
+}
+
+.about-me .social {
+    font-size: 40px;
+    margin-top: 1rem;
+}
+
+.about-me .social a, .contact .social a {
+    margin-right: 1rem;
+}
+
+.about-me .social a:last-child, .contact .social a:last-child {
+    margin-right: 0;
 }
 
 /* Cursor */
